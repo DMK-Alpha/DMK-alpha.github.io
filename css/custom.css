@@ -1,0 +1,13 @@
+
+.navbar-brand > img {
+  height: 50px;
+  margin-top: -15px;
+}
+
+section h3.section-subheading.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.contact-social {
+  margin-bottom: 20px;
+}
