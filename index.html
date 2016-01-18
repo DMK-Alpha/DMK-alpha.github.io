@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body>
 
@@ -20,14 +21,18 @@
 			<header id="header">
 				<h1>Epsilon Nu Tau - Theta Chapter</h1>
 				<p>Purdue University's chapter of the co-ed professional entrepreneurship fraternity.</p>
-				<span><p>Interested? Find out how you can join!</p><button>Rush!</button></span>
+				<p>Interested? Find out how you can join!</p>
+				<!--<button id="rushbutton"">Rush!</button>-->
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Get Updates!" />
-			</form>
+			<div id = "signupdiv">
+				<form id="signup-form" method="post" action="#">
+					<input type="email" name="email" id="email" placeholder="Email Address" />
+					<input type="submit" value="Get Updates!" />
+				</form>
+				<button>View our Rush Page!</button>
+			</div>
 
 		<!-- Footer -->
 			<footer id="footer">

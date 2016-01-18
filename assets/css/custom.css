@@ -1,0 +1,10 @@
+#signupdiv > * {
+	margin-bottom: 50px;
+}
+
+#signupdiv {
+	display:flex;
+	flex-direction: column;
+	align-items: right;
+	width: fit-content;
+}
