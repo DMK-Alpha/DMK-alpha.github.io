@@ -20,3 +20,19 @@
 header.major > h1 {
   font-size: 2.5em;
 }
+
+section.quote img {
+  margin: auto;
+  margin-top: .2em;
+  height: 5em;
+  width: 5em;
+  border-radius: .5em;
+}
+
+section.quote .body {
+  display: flex;
+}
+
+section.quote .body > blockquote {
+  border: none;
+}
