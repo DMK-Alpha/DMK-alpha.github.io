@@ -4,6 +4,7 @@
   visibility: hidden;
 }
 
+/* Sections */
 #header .logo img {
   margin-top: .2em;
   font-size: 2.25em;
@@ -11,6 +12,10 @@
   width: .7em;
   line-height: 2.35em;
   text-align: center;
+}
+
+#header .header-cta {
+  margin-top: 2em;
 }
 
 #header .ghost {
@@ -37,6 +42,10 @@ section.quote .body > blockquote {
   border: none;
 }
 
-.feature .image img {
+.feature .image img.zoom-50 {
   zoom: 50%;
+}
+
+.feature .image img.zoom-10 {
+  zoom: 10%;
 }
