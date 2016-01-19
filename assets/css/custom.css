@@ -4,7 +4,7 @@
 }
 
 #signupdiv {
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	align-items: right;
 	width: intrinsic;           /* Safari/WebKit uses a non-standard name */
@@ -13,11 +13,32 @@
 	display: table;
 }
 
-#signup-form > .message{
+#signup-form > .message {
   margin: 0;
 }
 
-#signup-form > button {
+#mc_embed_signup input {
+  display: inline;
+}
+
+#mc_embed_signup input.email {
+  width: 62%;
+}
+
+@media (min-width: 980px) {
+  #mc_embed_signup input.email {
+    width: 59%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #mc_embed_signup input.email {
+    width: 62%;
+  }
+}
+
+#signup-form > button,
+#mc_embed_signup .button {
   font-size: 16px;
   height: 44px;
   width: 140px;
@@ -28,7 +49,8 @@
 }
 
 button:hover,
-.button:hover {
+.button:hover,
+#mc_embed_signup .button:hover {
   color: #1cb495;
   background-color: #fff;
 }
