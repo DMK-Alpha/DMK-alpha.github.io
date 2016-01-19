@@ -36,3 +36,7 @@ section.quote .body {
 section.quote .body > blockquote {
   border: none;
 }
+
+.feature .image img {
+  zoom: 50%;
+}
