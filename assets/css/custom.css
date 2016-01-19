@@ -26,3 +26,9 @@
 #signupdiv .rush-button {
   font-size: 16px;
 }
+
+button:hover,
+.button:hover {
+  color: #1cb495;
+  background-color: #fff;
+}
