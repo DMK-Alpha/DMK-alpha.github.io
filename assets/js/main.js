@@ -133,6 +133,27 @@
       $submit.disabled = true;
 
       // Process form.
+      // reqwest({
+      //   url: 'https://docs.google.com/forms/d/1bIOIjZaZumeQgVCanFDkRafFnToBuVk232_hpmCq9fw/formResponse',
+      //   method: 'post',
+      //   data: {
+      //     // formkey: '1bIOIjZaZumeQgVCanFDkRafFnToBuVk232_hpmCq9fw',
+      //     // 'entry.0.single': 'jjman505@gmail.com',
+      //     // 'entry.1.single': 'Jeremy Meyer',
+      //     'entry.2033373848': 'jjman505@gmail.com',
+      //     'entry.2055649148': 'Jeremy Meyer',
+      //   },
+      //   dataType: 'xml',
+      //   success: function(res) {
+      //     console.log('success');
+      //     console.log(res);
+      //   },
+      //   error: function(err) {
+      //     console.log('error');
+      //     console.log(err);
+      //   }
+      // });
+
       // Note: Doesn't actually do anything yet (other than report back with a "thank you"),
       // but there's enough here to piece together a working AJAX submission call that does.
       window.setTimeout(function() {
