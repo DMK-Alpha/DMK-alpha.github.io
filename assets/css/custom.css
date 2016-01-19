@@ -12,3 +12,7 @@
 	width: -webkit-max-content; /* Chrome */
 	display: table;
 }
+
+#signup-form > .message{
+  margin: 0;
+}
