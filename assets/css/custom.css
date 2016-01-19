@@ -16,3 +16,8 @@
 #signup-form > .message{
   margin: 0;
 }
+
+#signup-form > button {
+  height: 44px;
+  width: 120px;
+}
