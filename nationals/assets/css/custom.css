@@ -1,7 +1,3 @@
-@import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
-
 
 input[type="submit"].special,
 input[type="reset"].special,
@@ -9,4 +5,33 @@ input[type="button"].special,
 button.special,
 .button.special {
 	background-color:#009500
+}
+
+section.style2 {
+  padding-top: 20px;
+}
+
+section.style2 h2.header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+section.schedule {
+  padding-bottom: 20px;
+
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
+section.schedule table.schedule:last {
+  margin-bottom: 0;
+}
+
+table.schedule td.time {
+  text-align: right;
+  width: 20%;
+}
+
+table.schedule td.item {
+  text-align: left;
 }
