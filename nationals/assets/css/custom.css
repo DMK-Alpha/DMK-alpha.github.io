@@ -35,3 +35,7 @@ table.schedule td.time {
 table.schedule td.item {
   text-align: left;
 }
+
+.features li {
+  padding: 4em 2em 2em 4em;
+}
