@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ssh ent@maven.itap.purdue.edu

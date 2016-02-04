@@ -1,0 +1,7 @@
+#! /bin/bash
+
+scp -r * ent@maven.itap.purdue.edu:~/www/
+echo
+echo "** SCP COMPLETE **"
+echo
+ssh -t ent@maven.itap.purdue.edu 'cd www/; chmod -R 755 *; echo "** CHMOD COMPLETE **";'
