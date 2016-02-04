@@ -1,4 +1,18 @@
 
+#header {
+	background-color: #CCCCCC
+}
+
+#one {
+	background-color:#009500
+}
+
+
+#three {
+	background-color:#20b2aa
+}
+
+
 input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
@@ -6,6 +20,22 @@ button.special,
 .button.special {
 	background-color:#009500
 }
+
+	input[type="submit"].special:hover,
+	input[type="reset"].special:hover,
+	input[type="button"].special:hover,
+	button.special:hover,
+	.button.special:hover {
+		background-color: #CCCCCC !important;
+	}
+
+	input[type="submit"].special:active,
+	input[type="reset"].special:active,
+	input[type="button"].special:active,
+	button.special:active,
+	.button.special:active {
+		background-color: #CCCCCC !important;
+	}
 
 section.style2 {
   padding-top: 20px;
