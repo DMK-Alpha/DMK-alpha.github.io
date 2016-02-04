@@ -4,7 +4,7 @@
 }
 
 #one {
-	background-color:#20b2aa
+	background-color:#20b2aa;
 }
 
 
@@ -68,4 +68,8 @@ table.schedule td.item {
 
 .features li {
   padding: 4em 2em 2em 4em;
+}
+
+ul.icons.major li span {
+  color: #CCCCCC;
 }
