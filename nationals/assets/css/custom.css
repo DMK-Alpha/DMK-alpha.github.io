@@ -69,3 +69,7 @@ table.schedule td.item {
 .features li {
   padding: 4em 2em 2em 4em;
 }
+
+section#cta .inner .actions.vertical {
+  margin: 0 auto;
+}
