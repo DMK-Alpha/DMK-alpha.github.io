@@ -1,4 +1,8 @@
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 #header {
 	background-color: #CCCCCC
 }
@@ -70,6 +74,31 @@ table.schedule td.item {
   padding: 4em 2em 2em 4em;
 }
 
+
 ul.icons.major li span {
   color: #CCCCCC;
 }
+
+section#cta .inner .actions.vertical {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media(max-width: 920px) {
+
+  section.schedule {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+
+}
+
+@media(max-width: 640px) {
+
+  section.schedule {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+}
+
