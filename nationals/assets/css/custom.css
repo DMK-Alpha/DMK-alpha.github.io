@@ -1,4 +1,12 @@
 
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+button.special,
+.button.special {
+	background-color:#009500
+}
+
 section.style2 {
   padding-top: 20px;
 }
