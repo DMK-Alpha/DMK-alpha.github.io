@@ -71,12 +71,12 @@ table.schedule td.item {
 }
 
 .features li {
-  padding: 4em 2em 2em 4em;
+  padding: 4em 3em 2em 3em;
 }
 
 
 ul.icons.major li span {
-  color: #CCCCCC;
+  color: #C7C7C7;
 }
 
 section#cta .inner .actions.vertical {
@@ -100,5 +100,31 @@ section#cta .inner .actions.vertical {
     padding-right: 2em;
   }
 
+}
+
+.wrapper.style3 {
+  color: #ffffff;
+}
+
+.wrapper.style3 header.major p {
+  color: #ffffff;
+}
+
+/*h2.header {
+  border-bottom: solid 2px #fff;
+  display: inline-block;
+  padding-bottom: .2em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+
+header.major h2 {
+  padding-bottom: .2em;
+}
+
+hr.faq {
+  margin: -.5em 0 3em 0;
 }
 
