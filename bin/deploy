@@ -4,7 +4,7 @@ ssh -t ent@maven.itap.purdue.edu 'mv www/* backups/$(date +'%-d-%-m-%-Y-%-H-%-M-
 echo
 echo "** BACKUP CREATED **"
 echo
-scp -r * ent@maven.itap.purdue.edu:~/www/
+scp -r ../* ent@maven.itap.purdue.edu:~/www/
 echo
 echo "** SCP COMPLETE **"
 echo
