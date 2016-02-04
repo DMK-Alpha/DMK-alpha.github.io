@@ -1,4 +1,8 @@
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 #header {
 	background-color: #CCCCCC
 }
@@ -74,8 +78,22 @@ section#cta .inner .actions.vertical {
   text-align: center;
   margin: 0 auto;
 }
-/*
-@media(max-width: 600px) {
+
+@media(max-width: 920px) {
+
+  section.schedule {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
 
 }
-*/
+
+@media(max-width: 640px) {
+
+  section.schedule {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+}
+
