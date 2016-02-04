@@ -71,5 +71,11 @@ table.schedule td.item {
 }
 
 section#cta .inner .actions.vertical {
+  text-align: center;
   margin: 0 auto;
 }
+/*
+@media(max-width: 600px) {
+
+}
+*/
