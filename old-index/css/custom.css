@@ -11,6 +11,7 @@
 
 .brand-text {
 	margin-left:15px;
+	color: #009500;
 }
 
 @media(min-width:768px) {
@@ -29,6 +30,22 @@ footer {
 
 .copyright {
 	color: #FFF;
+}
+
+a {
+	color: #009500;
+}
+
+a:hover, a:active {
+	color: #CCCCCC;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #009500;
+}
+
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+	color: #009500;
 }
 
 section h3.section-subheading.margin-bottom-20 {
