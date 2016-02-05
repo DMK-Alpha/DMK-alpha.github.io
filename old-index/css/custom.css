@@ -2,6 +2,33 @@
 .navbar-brand > img {
   height: 50px;
   margin-top: -15px;
+  vertical-align:none;
+}
+
+.navbar-brand {
+	display: inline-flex;
+}
+
+.brand-text {
+	margin-left:15px;
+}
+
+@media(min-width:768px) {
+	header .intro-text .intro-lead-in {
+		line-height: 60px;
+	}
+}
+
+footer {
+	background-color: #2E3842;
+}
+
+.navbar-default.navbar-shrink {
+	background-color: #2E3842;
+}
+
+.copyright {
+	color: #FFF;
 }
 
 section h3.section-subheading.margin-bottom-20 {
