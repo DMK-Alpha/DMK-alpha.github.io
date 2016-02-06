@@ -44,7 +44,28 @@ a:hover, a:active {
 	background-color: #009500;
 }
 
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: #CCCCCC;
+}
+
+
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+	color: #009500;
+	background-color: #CCCCCC;
+	border-radius: 3px;
+}
+
+.btn-xl {
+	background-color: #009500;
+	border-color: #009500;
+}
+
+.btn-xl:hover, .btn-xl:active {
+	background-color: #CCCCCC;
+	border-color: #CCCCCC;
+}
+
+.text-primary {
 	color: #009500;
 }
 
