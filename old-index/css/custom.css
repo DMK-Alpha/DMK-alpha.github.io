@@ -32,7 +32,7 @@ footer {
 	color: #FFF;
 }
 
-a {
+a, a:visited {
 	color: #009500;
 }
 
@@ -84,4 +84,28 @@ section h3.section-subheading.margin-bottom-20 {
 
 .section-faded {
   -webkit-mask-image: -webkit-gradient(linear, left 10%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.text-muted {
+	font-style: normal;
+	font-size: 16px;
+}
+
+section h3.section-subheading {
+	font-size: 18px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+	font-size: 14px;
+	font-style: normal;
+}
+
+.bg-light-blue {
+    background-color: #ADD8E6;
+	border-top: double 3px #333;
+	border-bottom: double 3px #333;
+}
+
+.bg-light-green {
+    background-color: #98FB98;
 }
