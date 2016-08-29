@@ -5,6 +5,16 @@
 }
 
 /* Sections */
+#tagline {
+  font-weight: normal;
+  text-transform: none;
+}
+
+#summary {
+  font-weight: normal;
+  text-transform: none;
+}
+
 #header .logo img {
   margin-top: .2em;
   font-size: 2.25em;
@@ -20,6 +30,10 @@
 
 #header .ghost {
   margin-top: 2em;
+}
+
+header.major p {
+  text-transform: none;
 }
 
 header.major > h1 {
