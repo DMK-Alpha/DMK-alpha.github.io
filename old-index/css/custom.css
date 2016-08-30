@@ -113,3 +113,14 @@ section h3.section-subheading {
 section h3.section-subheading {
 	font-style: normal !important;
 }
+
+header {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/engr_fountain.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/engr_fountain.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/engr_fountain.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/engr_fountain.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
