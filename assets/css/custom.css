@@ -1,57 +1,170 @@
-#signupdiv > * {
-	margin-bottom: 40px;
-	width: 100%;
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
-#signupdiv {
-	display: flex;
-	flex-direction: column;
-	align-items: right;
-	width: intrinsic;           /* Safari/WebKit uses a non-standard name */
-	width: -moz-max-content;    /* Firefox/Gecko */
-	width: -webkit-max-content; /* Chrome */
-	display: table;
+#header {
+	background-color: #CCCCCC
+}
+
+#one {
+	background-color:#20b2aa;
 }
 
 
-#signup-form > .message {
-  margin: 0;
+#three {
+	background-color:#20b2aa
 }
 
-#mc_embed_signup input {
-  display: inline;
+
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+button.special,
+.button.special {
+	background-color:#009500
 }
 
-#mc_embed_signup input.email {
-  width: 62%;
+	input[type="submit"].special:hover,
+	input[type="reset"].special:hover,
+	input[type="button"].special:hover,
+	button.special:hover,
+	.button.special:hover {
+		background-color: #CCCCCC !important;
+	}
+
+	input[type="submit"].special:active,
+	input[type="reset"].special:active,
+	input[type="button"].special:active,
+	button.special:active,
+	.button.special:active {
+		background-color: #CCCCCC !important;
+	}
+
+section.style2 header p {
+  color: #9EAFBE !important;
 }
 
-@media (min-width: 980px) {
-  #mc_embed_signup input.email {
-    width: 59%;
+section.style2 h2.header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+section.schedule {
+  padding-bottom: 20px;
+
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
+section.schedule table.schedule:last {
+  margin-bottom: 0;
+}
+
+table.schedule td.time {
+  text-align: right;
+  width: 20%;
+}
+
+table.schedule td.item {
+  text-align: left;
+}
+
+.features li {
+  padding: 4em 3em 2em 3em;
+}
+
+
+ul.icons.major li span {
+  color: #C7C7C7;
+}
+
+section#cta .inner .actions.vertical {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media(max-width: 920px) {
+
+  section.schedule {
+    padding-left: 6em;
+    padding-right: 6em;
   }
+
 }
 
-@media (min-width: 1280px) {
-  #mc_embed_signup input.email {
-    width: 62%;
+@media(max-width: 640px) {
+
+  section.schedule {
+    padding-left: 2em;
+    padding-right: 2em;
   }
+
 }
 
-#signup-form > button,
-#mc_embed_signup .button {
-  font-size: 16px;
-  height: 100%;
-  width: 130px;
+.wrapper.style3 {
+  color: #ffffff;
 }
 
-#signupdiv .rush-button {
-  font-size: 16px;
+.wrapper.style3 header.major p {
+  color: #ffffff;
 }
 
-button:hover,
-.button:hover,
-#mc_embed_signup .button:hover {
-  color: #1cb495;
-  background-color: #fff;
+/*h2.header {
+  border-bottom: solid 2px #fff;
+  display: inline-block;
+  padding-bottom: .2em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+
+header.major h2 {
+  padding-bottom: .2em;
+}
+
+hr.faq {
+  margin: -.5em 0 3em 0;
+}
+
+.email {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.team-member {
+  margin: 0 1em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+    color: #9EAFBE;
+}
+
+.img-squarcle {
+  height: 225px;
+  width:  225px;
+}
+
+.img-squarcle {
+  border-radius: 50%;
 }
