@@ -41,8 +41,8 @@ button.special,
 		background-color: #CCCCCC !important;
 	}
 
-section.style2 {
-  padding-top: 20px;
+section.style2 header p {
+  color: #9EAFBE !important;
 }
 
 section.style2 h2.header {
