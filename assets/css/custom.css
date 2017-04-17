@@ -5,15 +5,19 @@ h1, h2, h3, h4, h5, h6 {
 
 #header {
 	background-color: #CCCCCC
+
+
 }
 
 #one {
-	background-color:#20b2aa;
+	/*background-color:#20b2aa;*/
+    background-color: #2e8b57;
+    color: #d2e7d2; 
 }
 
 
 #three {
-	background-color:#20b2aa
+	background-color:#79b9e1;
 }
 
 
@@ -31,6 +35,7 @@ button.special,
 	button.special:hover,
 	.button.special:hover {
 		background-color: #CCCCCC !important;
+        color: #009500 !important;
 	}
 
 	input[type="submit"].special:active,
@@ -39,6 +44,7 @@ button.special,
 	button.special:active,
 	.button.special:active {
 		background-color: #CCCCCC !important;
+        color: #009500 !important;
 	}
 
 section.style2 header p {
@@ -76,7 +82,9 @@ table.schedule td.item {
 
 
 ul.icons.major li span {
-  color: #C7C7C7;
+  color: #d2e7d2;
+  background-color: #429667;
+    font-size: 32px;
 }
 
 section#cta .inner .actions.vertical {
@@ -167,4 +175,35 @@ hr.faq {
 
 .img-squarcle {
   border-radius: 50%;
+}
+
+#entTitle:hover
+{
+    transition: 0.1s;
+    border-bottom: 3px solid white;
+}
+
+#thetaTitle:hover
+{
+    transition: 0.1s;
+    border-bottom: 3px solid white;
+}
+
+#eventsTitle:hover
+{
+    transition: 0.1s;
+    border-bottom: 3px solid white;
+
+}
+
+#leadershipTitle:hover
+{
+    transition: 0.1s;
+    border-bottom: 3px solid white;
+}
+
+#contactTitle:hover
+{
+    transition: 0.1s;
+    border-bottom: 3px solid white;
 }
