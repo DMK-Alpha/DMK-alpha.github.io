@@ -8,4 +8,4 @@
 #echo
 #echo "** SCP COMPLETE **"
 #echo
-ssh -t ent@maven.itap.purdue.edu 'cd www/chapter-website/; git pull; chmod -R 755 *; echo "** git pull + chmod = COMPLETE **";'
+ssh -t ent@maven.itap.purdue.edu 'cd www/; git pull; chmod -R 755 *; echo "** git pull + chmod = COMPLETE **";'
