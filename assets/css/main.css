@@ -248,7 +248,6 @@ body
     border-left: white;
     border-right: white;
     margin-top: 20px;
-    margin-left: 15px;
 }
 
 .Events
@@ -661,11 +660,6 @@ h3 {
     /*margin-left: 70px;*/
 }
 
-.row {
-    margin-left: 0px!important;
-    margin-right: 0px!important;
-  }x
-
 
 
 @media all and (max-width: 641px) {
@@ -690,12 +684,12 @@ h3 {
   }
 
   .About{
-    height: 100vh;
+    height: 110vh;
   }
 
   #spanId1, #spanId2, #spanId3, #spanId4 {
 
-    width: 22vw;
+    width: 25%;
   }
 
   #pillars{
@@ -706,11 +700,11 @@ h3 {
   } 
 
   .Events{
-    height: 300vh;
+    height: 320vh;
   }
 
   #changeInfo, #startupInfo, #indyInfo{
-    height: 330px;
+    height: 385px;
   }
 
   .row {
@@ -729,6 +723,10 @@ h3 {
 
   .navbar{
     margin-bottom: 0px!important;
+  }
+
+  .Contact h4{
+    font-size: 15px;
   }
 
 
@@ -799,6 +797,5 @@ h3 {
   font-size: 30px!important;
   text-align: center!important;
 }
-
 
 
