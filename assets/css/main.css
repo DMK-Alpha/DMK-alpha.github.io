@@ -18,6 +18,26 @@ body
     margin-top: -40px;
 }
 
+.button{
+    display: block;
+   width: 290px;
+   height: 50px;
+    background: none;
+    padding: 10px;
+    border:2px solid white;
+    /*border-color: 1px solid white;*/
+    text-align: center;
+    /*border-radius: 5px;*/
+    color: white;
+    font-weight: bold;
+    overflow:auto!important;
+
+}
+
+.button:hover{
+  color: white;
+}
+
 
 .navbar a
 {
@@ -146,6 +166,7 @@ body
     border-width: 1.5px;
     transition: 0.3s;
     cursor: not-allowed;
+    overflow: auto!important
 }
 
 #phoenixDiv
@@ -433,15 +454,15 @@ body
 }
 
 #rush{
-   z-index: 5;
+   /*z-index: 5;*/
    display: inline-block;
    position: absolute;
-   top: 72.5%;
+   top: 60%;
    left: 50%;
    width: 300px;
    height: 50px;
    margin-left: -150px;
-   overflow-x: hidden;
+   /*overflow-x: hidden;*/
    /*text-align: center;*/
  }
  #rush_here{
@@ -550,7 +571,7 @@ ul.main {
   text-align: center;
   border-color: white;
   border-width: 5px!important;
-  z-index: 30;
+  /*z-index: 30;*/
   border-style: solid;
   padding-bottom: 30px;
   margin: 0px;
@@ -659,6 +680,21 @@ h3 {
     font-size: 20px;
     /*margin-left: 70px;*/
 }
+
+
+@media (max-width: 1300px){
+  .col-lg-12 .col-lg-offset-2 {
+    margin-left: 25%!important;
+  }
+}
+
+@media (min-width: 1301px)(max-width: 1500px){
+  .col-lg-12 .col-lg-offset-2 {
+    margin-left: 20%!important;
+  }
+}
+
+
 
 
 
@@ -782,6 +818,11 @@ h3 {
    /*bottom: 0;*/
    /*text-shadow: none;*/
    /*position: absolute;*/
+}
+
+.row {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
 }
 
 .close {

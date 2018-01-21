@@ -11,6 +11,39 @@ html, body{
 box-sizing: border-box;
 }
 
+#rush_title{
+  color: white;
+  font-weight: 200;
+}
+
+h1{
+  font-weight: 400!important;
+}
+
+h2{
+  font-weight: 300!important;
+}
+
+#application_div{
+  left: 50%;
+  margin-left: -17%;
+}
+#application{
+ border:1px solid white;
+ /*left: 50%;*/
+}
+
+#apply_here{
+  color: white;
+  border: 1px;
+  border-color: white;
+  /*text-decoration: none;*/
+}
+#rush{
+  left: 51.5%;
+  margin-left: -25%;
+}
+
 #rush_schedule{
 	background: #456789!important;
 	left: 50%;
