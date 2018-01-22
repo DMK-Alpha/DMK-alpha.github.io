@@ -40,8 +40,9 @@ body
 
 #navbar2
 {
-  position: absolute;
+  display: inline-block;
   width: 100%;
+  background:#667db6!important;
   
 }
 .navbar a
