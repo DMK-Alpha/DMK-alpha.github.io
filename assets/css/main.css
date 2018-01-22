@@ -20,8 +20,8 @@ body
 
 .button{
     display: block;
-   width: 290px;
-   height: 50px;
+   width: auto;
+   height: auto;
     background: none;
     padding: 10px;
     border:2px solid white;
@@ -59,28 +59,40 @@ body
 #navEvents
 {
     transform: translateX(-50%);
-    left: 40%;
+    left: 30%;
     position: absolute;
 }
 
 #navAbout
 {
     transform: translateX(-50%);
-    left: 30%;
+    left: 20%;
     position: absolute;
 }
 
 #navLeadership
 {
     transform: translateX(-50%);
-    left: 60%;
+    left: 40%;
     position: absolute;
 }
 
 #navContact
 {
     transform: translateX(-50%);
+    left: 60%;
+    position: absolute;
+}
+  #navSponsors
+{
+    transform: translateX(-50%);
     left: 70%;
+    position: absolute;
+}
+  #navBlog
+{
+    transform: translateX(-50%);
+    left: 80%;
     position: absolute;
 }
 
