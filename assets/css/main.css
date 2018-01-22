@@ -38,7 +38,12 @@ body
   color: white;
 }
 
-
+#navbar2
+{
+  position: absolute;
+  width: 100%;
+  
+}
 .navbar a
 {
     color: #C28E0E !important;

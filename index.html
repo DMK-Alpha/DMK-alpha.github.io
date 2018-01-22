@@ -16,6 +16,7 @@
       type="image/png" 
       href="assets/images/phoenix-no-bkg.png">
     <!-- CDN !-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -27,10 +28,40 @@
 
 </head>
 
-<body ">
+<body >
+   <!-- Navbar -->
+<div id="navbar2" class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#About" id="navAbout" class="w3-bar-item w3-button w3-padding-large" >ABOUT</a>
+    <a href="#Events" id="navEvents"class="w3-bar-item w3-button w3-padding-large w3-hide-small" >EVENTS</a>
+    <a href="#Leadership" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="navLeadership">LEADERSHIP</a>
+    <a class="navbar-brand" href="#"><img src="assets/images/DMK-Logo-Website-Campus-Gold.png" id="brandImage"></a>
+    <a href="#Sponsors" id="navSponsors" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SPONSORS</a>
+    <a href="#Blog" id="navBlog" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>
+    <a href="#Contact" id="navContact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     
-    <!-- Navbar !-->
-   <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div> 
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+</div>
+     <!-- Navbar !
+   < <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
       <div class="container-fluid">
 
         
@@ -48,7 +79,7 @@
         </ul>
       
       </div>
-    </nav>
+    </nav> 
     
     <!-- First Block / Home !-->
     <div class="slideshow row">
